@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    {% include 'includes/meta.html' %}
+    <title>{% block title %}Пустой Title{% endblock title %}</title>
+  </head>
+
+<body>
+  <header class="my_style_header">
+    {% include 'includes/header.html' %}
+  </header>
+  <main>
+    {% block content %}Нет контента.{% endblock content %}
+  </main>
+  <footer class="border-top text-center py-3">
+    {% include 'includes/footer.html' %}
+  </footer>
+</body>
+</html>

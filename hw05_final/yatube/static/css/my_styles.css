@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+.my_style_logo {
+  border-radius: 10px;
+}
+
+.my_style_span {
+    font-style: italic;
+    padding: 15px !important;
+    background: #fc0;
+    border-radius: 25px 0;
+}
+
+.my_style_header {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.my_style_h1 {
+  font-size: 50px !important;
+  margin: 30px auto;
+}
+
+.my_style_a {
+  text-decoration: none;
+  color: black ;
+  font-size: 26px !important;
+  margin: 30px;
+}
+
+.my_style_icon {
+  vertical-align: bottom;
+}
+
+.my_style_div_row {
+  width: 1200px !important;
+  margin: 50px auto;
+}

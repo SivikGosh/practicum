@@ -1,0 +1,31 @@
+{% extends 'base.html' %}
+
+{% block title %}
+  Профайл пользователя {{ user.get_full_name }}
+{% endblock title %}
+
+{% block content %}
+  <div class="container py-5">
+    <h1>Все посты пользователя {{ user.get_full_name }}</h1>
+    <h3>Всего постов: {{ post_count }}</h3>
+    {% for post in all_posts %}
+      <article>
+        <ul>
+          <li>
+            Автор: {{ user.get_full_name }}
+            <a href="{% url 'posts:profile' post.author %}">все посты пользователя</a>
+          </li>
+          <li>Дата публикации: {{ post.pub_date|date:"d M Y" }}</li>
+        </ul>
+        <p>
+          {{ post.text }}
+        </p>
+          <a href="">подробная информация</a>
+        </article>
+      {% if post.group %}
+        <a href="{% url 'posts:group_list' post.group.slug %}">все записи группы</a>
+      {% endif %}
+      <hr>
+    {% endfor %}
+  </div>
+{% endblock content %}

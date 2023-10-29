@@ -1,0 +1,81 @@
+POST http://localhost:8000/api/v1/posts/
+Content-Type: application/json
+
+{
+    "id": 1,
+    "text": "Однажды в студённую зимнюю пору...",
+    "author": "1",
+    "pub_date": "2022-10-06T13:30:01.492170Z",
+    "group": 19
+}
+
+###
+
+GET http://localhost:8000/api/v1/posts/
+
+###
+
+PUT http://localhost:8000/api/v1/posts/121/
+Content-Type: application/json
+
+{
+    "text": "123123_123ffdd22 sss",
+    "author": 1,
+    "pub_date": "2022-10-06T13:30:01.492170Z"
+}
+
+###
+
+PATCH http://localhost:8000/api/v1/posts/121/
+Content-Type: application/json
+
+{
+    "text": "f"
+}
+
+###
+
+DELETE http://localhost:8000/api/v1/posts/155/
+
+###
+
+GET http://localhost:8000/api/v1/group/
+
+###
+
+POST http://localhost:8000/api/v1/group/
+Content-Type: application/json
+
+{
+    "id": 1,
+    "description": "новое описание группы",
+    "title": "Тестовое название группы API",
+    "slug": "test-group",
+    "posts": [
+        {
+            "id": 160,
+            "text": "1111",
+            "author": 1,
+            "pub_date": "2022-10-07T18:04:52.784321Z",
+            "group": "test-group"
+        }
+    ]
+}
+
+###
+
+DELETE http://localhost:8000/api/v1/group/
+
+###
+
+POST http://localhost:8000/api-token-auth/
+
+Content-Type: application/json
+
+{
+    "username": "admin",
+    "password": "adminadminadmin"
+}
+
+###
+# получаем токен админа
