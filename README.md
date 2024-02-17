@@ -16,4 +16,5 @@
 <img src='https://img.shields.io/badge/12-262626?style=for-the-badge'><img src='https://img.shields.io/badge/infra_sp2-33b471?style=for-the-badge'>
 <img src='https://img.shields.io/badge/13-262626?style=for-the-badge'><img src='https://img.shields.io/badge/infra_actions-33b471?style=for-the-badge'>
 <img src='https://img.shields.io/badge/14-262626?style=for-the-badge'><img src='https://img.shields.io/badge/yamdb_final-33b471?style=for-the-badge'>
+
 <img src='https://img.shields.io/badge/15-262626?style=for-the-badge'><img src='https://img.shields.io/badge/foodgram_project_react-33b471?style=for-the-badge'>
