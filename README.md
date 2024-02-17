@@ -4,8 +4,8 @@
 <img src='https://img.shields.io/badge/2-262626?style=for-the-badge'><img src='https://img.shields.io/badge/hw_python_oop-33b471?style=for-the-badge'>
 <img src='https://img.shields.io/badge/3-262626?style=for-the-badge'><img src='https://img.shields.io/badge/yatube_project-33b471?style=for-the-badge'>
 <img src='https://img.shields.io/badge/4-262626?style=for-the-badge'><img src='https://img.shields.io/badge/hw02_community-33b471?style=for-the-badge'>
-<img src='https://img.shields.io/badge/5-262626?style=for-the-badge'><img src='https://img.shields.io/badge/hw03_forms-33b471?style=for-the-badge'>
 
+<img src='https://img.shields.io/badge/5-262626?style=for-the-badge'><img src='https://img.shields.io/badge/hw03_forms-33b471?style=for-the-badge'>
 <img src='https://img.shields.io/badge/6-262626?style=for-the-badge'><img src='https://img.shields.io/badge/hw04_tests-33b471?style=for-the-badge'>
 <img src='https://img.shields.io/badge/7-262626?style=for-the-badge'><img src='https://img.shields.io/badge/api_yatube-33b471?style=for-the-badge'>
 <img src='https://img.shields.io/badge/8-262626?style=for-the-badge'><img src='https://img.shields.io/badge/api_final_yatube-33b471?style=for-the-badge'>
